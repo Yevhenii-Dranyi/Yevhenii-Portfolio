@@ -30,4 +30,6 @@ pip install streamlit
 streamlit run 0_🏡_Home.py
 ```
 
+#### see it live on https://m74-dot-manisha-portfolio-0--home-bwr2zb.streamlit.app/
+
 Make sure you have Streamlit installed on your system before following these steps.
