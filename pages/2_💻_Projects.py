@@ -46,7 +46,7 @@ st.markdown(
     "<h3>Project 2: My Portfolio</h3>"
     "<p>\
         <b>Description:</b>\
-        This portfolio project is built with StreamlitWith this portfolio, I\
+        This portfolio project is built with Streamlit. With this portfolio, I\
         aim to provide a glimpse of my professional journey, including my\
         educational background, work experience, skills, and various projects.\
     </p>"
@@ -56,7 +56,7 @@ st.markdown(
     </p>"
     "<p><b>GitHub Repository:</b> "
     '<a href=\
-    "https://geeklab.afourtech.com/snowflakeaccel/llm_chatbot/-/tree/development">\
+    "https://github.com/M74-dot/manisha-portfolio">\
     Link to Github</a></p>'
     "</div>",
     unsafe_allow_html=True,
@@ -64,11 +64,11 @@ st.markdown(
 
 st.markdown(
     f'<div style="{project_card_style}">'
-    "<h3>Project 2: My Portfolio</h3>"
+    "<h3>Project 3: Online Yoga Trainer</h3>"
     "<p>\
         <b>Description:</b>\
         This portfolio project is built with StreamlitWith this portfolio, I\
-        aim to provide a glimpse of my professional journey, including my\
+        aim to provide a glimpse of mynm professional journey, including my\
         educational background, work experience, skills, and various projects.\
     </p>"
     "<p>\
