@@ -15,7 +15,7 @@ border-radius: 15px;">
         I'm Manisha Mali!
     </h1>
     <p class="center" style="color: #666; font-size: 16px;">
-        Software Engineer Intern
+        Trainee Software Engineer
     </p>
 </div>
 """, unsafe_allow_html=True)
