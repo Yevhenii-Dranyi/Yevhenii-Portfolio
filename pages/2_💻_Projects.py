@@ -67,17 +67,20 @@ st.markdown(
     "<h3>Project 3: Online Yoga Trainer 🧘</h3>"
     "<p>\
         <b>Description 📝:</b>\
-        This portfolio project is built with StreamlitWith this portfolio, I\
-        aim to provide a glimpse of mynm professional journey, including my\
-        educational background, work experience, skills, and various projects.\
+        The 'Online Yoga Trainer' is one of my notable projects designed to\
+        promote a healthy and active lifestyle. Using a combination of\
+        technologies, including Mediapipe for pose detection, Streamlit\
+        for the user interface, Python for the backend logic, and HTML/CSS\
+            for styling, this project empowers users to practice yoga from\
+            the comfort of their homes.\
     </p>"
     "<p>\
         <b>Technologies Used 💻:</b>\
-        Meadiapipe, Streamlit, HTML, CSS\
+        Python, Meadiapipe, Streamlit, HTML, CSS\
     </p>"
     "<p><b>GitHub Repository 🚀:</b> "
     '<a href=\
-    "https://geeklab.afourtech.com/snowflakeaccel/llm_chatbot/-/tree/development">\
+    "https://github.com/M74-dot/Online-Yoga-Trainer">\
     Link to Github</a></p>'
     "</div>",
     unsafe_allow_html=True,
