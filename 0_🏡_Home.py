@@ -1,21 +1,22 @@
-import streamlit as st
+from flask import Flask, render_template
 
+app = Flask(__name__)
 
-st.set_page_config(
-    page_title="My Portfolio",
-    page_icon="📝",
-)
+@app.route('/')
+def home():
+    return render_template('home.html')
 
-st.title("   Hey There! 👋 Welcome :)")
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
-st.markdown("""
-<div style="background-color: #f0f0f0; padding: 20px; text-align: center;
-border-radius: 15px;">
-    <h1 style="color: #333; font-size: 24px; font-weight:bold;">
-        I'm Yevhenii Dranyi!
-    </h1>
-    <p class="center" style="color: #666; font-size: 16px;">
-        Data Analyst
-    </p>
-</div>
-""", unsafe_allow_html=True)
+@app.route('/projects')
+def projects():
+    return render_template('projects.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
