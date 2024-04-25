@@ -15,7 +15,7 @@ border-radius: 15px;">
         I'm Yevhenii Dranyi!
     </h1>
     <p class="center" style="color: #666; font-size: 16px;">
-        Trainee Software Engineer
+        Data Analyst
     </p>
 </div>
 """, unsafe_allow_html=True)
